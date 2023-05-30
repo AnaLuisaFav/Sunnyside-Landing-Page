@@ -1,0 +1,219 @@
+@media (max-width: 1215px) {
+
+	body {
+		overflow-x: hidden;
+	}
+
+	.header-bg {
+		background-image: url(img/mobile/image-header.jpg);
+		top: -48px;
+		width: 100vw;
+	}
+
+	.header-titulo h1 {
+		font-size: 2em;
+	}
+
+	nav {
+		display: none;
+	}
+
+	section > div { 
+		display: grid;
+		grid-template-columns: 100vw;
+		height: auto;
+		width: 100vw;
+	}
+
+	.menu {
+	    display: none;
+	}
+	  
+	.botao-menu {
+	    display: block;
+	}
+	  
+	.botao-menu::before {
+	    content: url(img/icon-hamburger.svg);
+	    display: block;
+	    width: 20px;
+	    cursor: pointer;
+	}
+
+	.botao-menu.aberto::after {
+		font-family: "Arial";
+		content: '×';
+		color: #fff;
+		top: 58px;
+		font-size: 3rem;
+		text-align: center;
+		cursor: pointer;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	 
+	.menu.aberto {
+	    display: flex;
+		flex-direction: column;
+		width: 80vw;
+		height: 30vh;
+		position: fixed;
+		top: 100px;
+		background-color: white;
+		transition: all 200ms ease-in-out;
+		align-items: center;
+		justify-content: center;
+		z-index: 1;
+	}
+
+	.menu.aberto:after {
+		content: '';
+		position: absolute;
+		transform: rotate(90deg);
+		bottom: 255px;
+		right: 0px;
+		border: 20px solid transparent;
+		border-top-color: #fff;
+	}
+
+	.contact {
+		background-color: hsl(51, 100%, 49%);
+		margin-top: 20px;
+	}
+	  
+	.menu.aberto a {
+		margin-right: unset;
+	    display: block;
+	    padding: 15px;
+	    text-align: center;
+	    color: hsl(213, 9%, 39%);
+	    text-decoration: none;
+	    margin-bottom: 5px;
+	}
+
+	.img-linha-1 {
+		background-image: url(img/mobile/image-transform.jpg);
+	}
+
+	.img-linha-2 {
+		background-image: url(img/mobile/image-stand-out.jpg);
+	}
+
+	.img-linha-1, .img-linha-2 {
+		background-size: cover;
+		background-position: center;
+		height: 55vh;
+	}
+
+	.linha-3-e, .linha-3-d {
+		background-size: cover;
+		height: 80vh;
+	}
+
+	.texto-linha-1, .texto-linha-2 {
+		width: 298px;
+		height: 45vh;
+		text-align: center;
+		padding: 20px;
+	}
+
+	.texto-linha-1 h2, .texto-linha-2 h2 {
+		font-size: 2em;
+	}
+
+	.texto-linha-1 p, .texto-linha-2 p {
+		font-size: 1em;
+	}
+
+	.linha-1, .linha-2 {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.under-span-1, .under-span-2 {
+		margin-left: 80px;
+	}
+
+	.linha-3-e {
+		background-image: url(img/mobile/image-graphic-design.jpg);
+	}
+
+	.linha-3-d {
+		background-image: url(img/mobile/image-photography.jpg);
+	}
+
+	.linha-3-e h3, .linha-3-d h3 {
+		font-weight: 800;
+		font-size: 1.5em;
+	}
+
+	.linha-3-e p, .linha-3-d p {
+		font-size: 0.8em;
+		color: hsl(198, 62%, 26%);
+	}
+
+	.linha-3-e-conteudo, .linha-3-d-conteudo {
+		padding: 30px;
+	}
+
+	.linha-4 {
+		grid-template-columns: 100vw;
+	}
+
+	.linha-4 > div {
+		width: 100vw;
+	}
+
+	.linha-4 h4 {
+		grid-column-start: unset;
+		font-size: 1em;
+		padding: 35px 0px;
+	}
+
+	.linha-4 h5 {
+		margin: -15px 0px -15px 0px;
+	}
+
+	.linha-4 h6 {
+		margin: 30px 0px 86px 0px;
+	}
+
+	.linha-4 p {
+		padding: 20px;
+	}
+
+	.linha-5-imgs {
+		display: grid;
+		grid-template-columns: 50vw 50vw;
+	}
+
+	.linha-5-imgs img {
+		width: 170px;
+	}
+
+	.linha-5-4 img {
+		width: 170px;
+	}
+
+	.rodape {
+		width: 100vw;
+		padding: unset;
+	} 
+
+	.logo-rodape img {
+		width: 125px;
+		margin-top: 50px;
+	}
+
+	.nav-rodape a {
+		margin-right: 45px;
+	}
+
+	.sociais {
+		margin-bottom: 50px;
+	}
+
+	footer {
+		width: 100vw;
+	}
+}

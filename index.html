@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+  <link rel="stylesheet" type="text/css" href="media-1215.css">
+  
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+</head>
+<body>
+
+  <main>
+
+    <div class="header-bg">
+          <header>
+            <div class="header-conteudo">
+              <div class="logo-nav">
+                <div class="logo">
+                  <img src="img/logo.svg" alt="sunnyside">
+                </div>
+
+                <div class="botao-menu"></div>
+                <nav class="menu">
+                  <a href="#">About</a>
+                  <a href="#">Services</a>
+                  <a href="#">Projects</a>
+                  <a class="contact" href="#">Contact</a>
+                </nav>
+              </div>
+
+              <div class="header-titulo">
+                <h1>We are creatives</h1>
+              </div>
+            </div>
+          </header>
+    </div>
+
+    <section class="principal">
+      <div class="linha-1">
+        <div class="texto-linha-1">
+          <h2>Transform your brand</h2>
+          <p>We are a full-service creative agency specializing in helping brands grow fast. 
+          Engage your clients through compelling visuals that do most of the marketing for you.</p>
+          <div class="learn-1">
+            <span>Learn more</span>
+            <div class="under-span-1"></div>
+          </div>
+        </div>
+        <div class="img-linha-1"></div>
+      </div>
+
+       <div class="linha-2">
+        <div class="texto-linha-2">
+          <h2>Stand out to the right audience</h2>
+          <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+          <div class="learn-2">
+            <span>Learn more</span>
+            <div class="under-span-2"></div>
+          </div>
+        </div>
+        <div class="img-linha-2"></div>
+      </div>
+
+      <div class="linha-3">
+          <div class="linha-3-e">
+            <div class="linha-3-e-conteudo">
+              <h3>Graphic design</h3>
+              <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+            </div>
+          </div>
+          <div class="linha-3-d">
+            <div class="linha-3-d-conteudo">
+            <h3>Photography</h3>
+            <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+            </div>
+          </div>
+      </div>
+
+      <div class="linha-4">
+        <h4>Client testimonials</h4>
+        <div class="linha-4-1">
+          <div class="linha-4-1-img">
+            <img src="img/image-emily.jpg" alt="image-emily">
+          </div>
+          <div class="linha-4-texto">
+            <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+            <h5>Emily R.</h5>
+            <h6>Marketing Director</h6>
+          </div>
+        </div>
+
+        <div class="linha-4-2">
+          <div class="linha-4-2-img">
+            <img src="img/image-thomas.jpg" alt="image-emily">
+          </div>
+          <div class="linha-4-texto">
+            <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+            <h5>Thomas S.</h5>
+            <h6>Chief Operating Officer</h6>
+          </div>
+        </div>
+
+        <div class="linha-4-3">
+          <div class="linha-4-3-img">
+            <img src="img/image-jennie.jpg" alt="image-emily">
+          </div>
+          <div class="linha-4-texto">
+            <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+            <h5>Jennie F.</h5>
+            <h6>Business Owner</h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="linha-5"> 
+        <div class="linha-5-imgs"> 
+          <div class="linha-5-1"></div>
+          <div class="linha-5-2"></div>
+          <div class="linha-5-3"></div>
+          <div class="linha-5-4"></div>
+        </div> 
+
+        <div class="rodape"> 
+            <div class="logo-rodape">
+              <img src="img/logo.svg">
+            </div>
+
+            <div class="nav-rodape">
+              <a href="#">About</a>
+              <a href="#">Services</a>
+              <a href="#">Projects</a> 
+            </div>
+
+            <div class="sociais">
+              <div class="facebook">
+                <img src="img/icon-facebook.svg" alt="facebook-icon">
+              </div>
+              <div class="instagram">
+                <img src="img/icon-instagram.svg" alt="instagram-icon">
+              </div>
+               <div class="twitter">
+                <img src="img/icon-twitter.svg" alt="twitter-icon">
+              </div>
+               <div class="pinterest">
+                <img src="img/icon-pinterest.svg" alt="pinterest-icon">
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://www.linkedin.com/in/analuisafav/">Ana Luisa</a>. ♥
+  </footer>
+
+  <script>
+      var botaoMenu = document.querySelector('.botao-menu');
+      var menu = document.querySelector('.menu');
+
+      botaoMenu.addEventListener('click', function() {
+        menu.classList.toggle('aberto');
+      })
+  </script>
+</body>
+</html>
