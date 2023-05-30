@@ -105,11 +105,6 @@
 		height: 55vh;
 	}
 
-	.linha-3-e, .linha-3-d {
-		background-size: cover;
-		height: 80vh;
-	}
-
 	.texto-linha-1, .texto-linha-2 {
 		width: 298px;
 		height: 45vh;
@@ -123,6 +118,9 @@
 
 	.texto-linha-1 p, .texto-linha-2 p {
 		font-size: 1em;
+		line-height: 25px;
+		color: hsl(213, 9%, 39%);
+		margin: 40px 0px;
 	}
 
 	.linha-1, .linha-2 {
@@ -131,7 +129,11 @@
 	}
 
 	.under-span-1, .under-span-2 {
-		margin-left: 80px;
+		margin-left: 90px;
+	}
+
+	.linha-3 .bg {
+		height: 65vh;
 	}
 
 	.linha-3-e {
@@ -154,6 +156,7 @@
 
 	.linha-3-e-conteudo, .linha-3-d-conteudo {
 		padding: 30px;
+		width: 280px;
 	}
 
 	.linha-4 {
@@ -175,16 +178,18 @@
 	}
 
 	.linha-4 h6 {
-		margin: 30px 0px 86px 0px;
+		margin: 30px 0px 60px 0px;
 	}
 
 	.linha-4 p {
-		padding: 20px;
+		padding: 25px 120px 40px 119px;
+		line-height: 25px;
 	}
 
 	.linha-5-imgs {
 		display: grid;
 		grid-template-columns: 50vw 50vw;
+		height: 55vh;
 	}
 
 	.linha-5-imgs img {
