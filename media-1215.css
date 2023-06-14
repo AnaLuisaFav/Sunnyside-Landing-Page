@@ -26,18 +26,18 @@
 	}
 
 	.menu {
-	    display: none;
+	    	display: none;
 	}
 	  
 	.botao-menu {
-	    display: block;
+	    	display: block;
 	}
 	  
 	.botao-menu::before {
-	    content: url(img/icon-hamburger.svg);
-	    display: block;
-	    width: 20px;
-	    cursor: pointer;
+		content: url(img/icon-hamburger.svg);
+		display: block;
+		width: 20px;
+		cursor: pointer;
 	}
 
 	.botao-menu.aberto::after {
@@ -83,12 +83,12 @@
 	  
 	.menu.aberto a {
 		margin-right: unset;
-	    display: block;
-	    padding: 15px;
-	    text-align: center;
-	    color: hsl(213, 9%, 39%);
-	    text-decoration: none;
-	    margin-bottom: 5px;
+		display: block;
+		padding: 15px;
+		text-align: center;
+		color: hsl(213, 9%, 39%);
+		text-decoration: none;
+		margin-bottom: 5px;
 	}
 
 	.img-linha-1 {
@@ -182,7 +182,7 @@
 	}
 
 	.linha-4 p {
-		padding: 25px 120px 40px 119px;
+		padding: 25px 80px 40px 80px;
 		line-height: 25px;
 	}
 
