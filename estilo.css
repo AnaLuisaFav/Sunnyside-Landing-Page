@@ -3,6 +3,7 @@
 body {
   margin: 0px;
   padding: 0px;
+  overflow-x: hidden;
 }
 
 section > div {
@@ -36,6 +37,10 @@ nav a {
   color: #fff;
   margin-right: 40px;
   font-size: 1.1em;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 nav a:last-child {
@@ -259,6 +264,7 @@ nav a:last-child {
 
 .linha-5-4 {
   background-image: url(img/desktop/image-gallery-sugarcubes.jpg);
+  width: 463px;
 }
 
 .linha-5-imgs {
@@ -311,6 +317,11 @@ nav a:last-child {
   display: inline-flex;
   width: 160px;
   justify-content: space-between;
+}
+
+.filtro:hover {
+  cursor: pointer;
+  filter: invert(76%) sepia(3%) saturate(100%) hue-rotate(197deg) brightness(71%) contrast(166%);
 }
 
 footer {
